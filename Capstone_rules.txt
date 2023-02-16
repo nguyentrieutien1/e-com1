@@ -1,0 +1,6 @@
+-> Working flowing container design pattern docs(https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
+-> create file container, then import component file into container file, container file using handle login(call api etc..) and component file using handle view (UI)
+-> using redux-toolkit, not using context hook;
+-> using BEM to put name for className in react
+-> put the name for div parent start with name component -> ex: component have name LoginComponent, then let's put name is login for div element ( -> login__form -> login__form--username)
+ 
