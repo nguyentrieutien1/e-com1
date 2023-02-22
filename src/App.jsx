@@ -1,6 +1,6 @@
 function App() {
   return (
-    <h1 className="container text-center">HOTEL MANAGEMENT</h1>
+    <h1 className="container text-center">GO BACKPACKING MANAGEMENT</h1>
   )
 }
 export default App;
