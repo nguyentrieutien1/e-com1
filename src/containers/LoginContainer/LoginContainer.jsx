@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react"
+import LoginComponent from "../../components/LoginComponent/LoginComponent"
 
 export default function LoginContainer() {
   return (
-    <div>LoginContainer</div>
+    <div>
+      <LoginComponent />
+    </div>
   )
 }

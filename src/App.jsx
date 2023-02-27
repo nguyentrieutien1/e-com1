@@ -1,6 +1,6 @@
+import LoginContainer from "./containers/LoginContainer/LoginContainer"
+
 function App() {
-  return (
-    <h1 className="container text-center">GO BACKPACKING MANAGEMENT</h1>
-  )
+  return <LoginContainer />
 }
-export default App;
+export default App
