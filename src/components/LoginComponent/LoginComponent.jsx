@@ -43,7 +43,7 @@ const LoginComponent = () => {
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="form-check mb-0">
                     <input
-                      className="form-check-input me-2"
+                      className="form-check-input me-2 login_form-checkbox"
                       type="checkbox"
                       value=""
                       id="checkbox"
