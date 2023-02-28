@@ -1,28 +1,29 @@
 import React from "react"
+import "./login.scss"
 
 const LoginComponent = () => {
   return (
     <div>
       <section className="vh-100">
         <div className="container-fluid h-custom">
-          <div className="row d-flex justify-content-center align-items-center m-5">
+          <div className="row d-flex justify-content-center align-items-center vh-100">
             <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-              <form>
-                <div className="d-flex flex-column justify-content-lg-start">
+              <form className="login_form">
+                <div className="d-flex flex-column justify-content-lg-start login_title">
                   <p className="lead fw-bold fs-1 mb-0 me-3">Welcome back</p>
                   <span className="text-secondary mb-3">
                     Welcome back! Please enter your details.
                   </span>
                 </div>
 
-                <div className="form-outline mb-2">
+                <div className="form-outline mb-3">
                   <label className="form-label fw-semibold" htmlFor="email">
                     Email
                   </label>
                   <input
                     type="email"
                     id="email"
-                    className="form-control form-control-lg"
+                    className="form-control form-control-lg login_form-input"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -34,8 +35,8 @@ const LoginComponent = () => {
                   <input
                     type="password"
                     id="password"
-                    className="form-control form-control-lg"
-                    placeholder="Enter password"
+                    className="form-control form-control-lg login_form-input"
+                    placeholder="••••••••"
                   />
                 </div>
 
@@ -62,17 +63,17 @@ const LoginComponent = () => {
                 <div className="text-center text-lg-start mt-4 pt-2 d-flex flex-column">
                   <button
                     type="button"
-                    className="btn btn-primary btn-lg mb-4 fw-bold btn-outline-dark bg-dark text-white"
+                    className="btn login_btn-login mb-4 text-white"
                   >
                     Sign in
                   </button>
                   <button
                     type="button"
-                    className="btn btn-primary btn-lg bg-white text-dark fw-bold btn-outline-dark"
+                    className="btn login_btn-google bg-white text-dark mb-5"
                   >
                     Sign in with google
                   </button>
-                  <p className="small text-secondary mt-2 pt-1 mb-0">
+                  <p className="small text-secondary mt-2 pt-1 mb-0 text-center">
                     Don't have an account?{" "}
                     <a
                       href="#!"

@@ -1,0 +1,28 @@
+.login_form {
+    margin: 0 100px;
+}
+
+.login_title {
+    margin-bottom: 20px;
+}
+
+.login_form-input {
+    border-color: #E4E9E7;
+}
+
+.login_btn-login {
+    background-color: #101727;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 12px;
+    :hover {
+        opacity: 0.8;
+    }
+}
+
+.login_btn-google {
+    font-size: 20px;
+    font-weight: 400;
+    border-color: #E4E9E7;
+    border-radius: 12px;
+}
