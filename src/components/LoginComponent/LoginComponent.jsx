@@ -91,7 +91,7 @@ const LoginComponent = () => {
                 alt="imageLogin"
                 src={
                   process.env.PUBLIC_URL +
-                  "/assets/images/3d-casual-life-boy-with-suitcase-and-door-travel.png"
+                  "/assets/images/boba-traveller-man-looking-at-map-near-signpost-1.png"
                 }
               />
             </div>
