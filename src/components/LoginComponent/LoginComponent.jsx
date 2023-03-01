@@ -87,9 +87,12 @@ const LoginComponent = () => {
             </div>
             <div className="col-md-9 col-lg-6 col-xl-5">
               <img
-                className="img-fluid"
+                className="img-fluid login_image"
                 alt="imageLogin"
-                src="../../../public/assets/images/3d-casual-life-boy-with-suitcase-and-door-travel.png"
+                src={
+                  process.env.PUBLIC_URL +
+                  "/assets/images/3d-casual-life-boy-with-suitcase-and-door-travel.png"
+                }
               />
             </div>
           </div>

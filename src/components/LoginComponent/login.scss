@@ -1,5 +1,5 @@
 .login_form {
-    margin: 0 100px;
+    // margin: 0 100px;
 }
 
 .login_title {
@@ -30,4 +30,14 @@
     font-weight: 400;
     border-color: #E4E9E7;
     border-radius: 12px;
+}
+
+.login_image {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.login_image img {
+    object-fit: contain;
 }
