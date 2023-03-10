@@ -53,7 +53,7 @@ export default function App() {
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid serarc-fluid">
               <a className="navbar-brand" href="index.html">
-                Spry<span className="lohny">S</span>tore</a>
+                MinhCuong<span className="lohny">Au</span>Dio</a>
               {/* if logo is image enable this   
                 <a class="navbar-brand" href="#index.html">
                   <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
@@ -122,9 +122,11 @@ export default function App() {
               </ol>
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/sr-italia.jpg" class="d-block w-100" alt="..." />
                   <div className="container">
                     <div className="carousel-caption">
-                      <h3>Women's Fashion
+                      <h3>Loa Sieu Chat
+                      
                         <br />50% Off</h3>
                       <a href="ecommerce.html" className="shop-button btn">
                         Shop Now
@@ -133,9 +135,10 @@ export default function App() {
                   </div>
                 </div>
                 <div className="carousel-item item2">
+                <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/background1.jpg" class="d-block w-100" alt="..." />
                   <div className="container">
                     <div className="carousel-caption">
-                      <h3>Men's Fashion
+                      <h3>Loa Nay Khong Chat
                         <br />60% Off</h3>
                       <a href="ecommerce.html" className="shop-button btn">
                         Shop Now
@@ -157,10 +160,12 @@ export default function App() {
           {/*//banner-slider*/}
           {/*//banner-slider*/}
           <div className="right-banner">
+                <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/amthanh.jpg" class="d-block w-100" alt="..." />
+          
             <div className="right-1">
               <h4>
-                Men's Fashion
-                <br />50% Off</h4>
+                Sale 100% No UpTo
+                </h4>
             </div>
           </div>
         </div>
@@ -182,7 +187,18 @@ export default function App() {
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
+                  <img  src="https://assets.nicepagecdn.com/090aae66/4287814/images/microphone.jpg" className="img-fluid" alt="" />
+                  <div className="boxhny-content">
+                    <h3 className="title">Micro
+                    </h3></div>
+                </a>
+              </div>
+              <h4><a href="ecommerce.html">Micro</a></h4>
+            </div>
+            <div className="col-lg-2 col-md-4 col-6 welcome-image">
+              <div className="boxhny13">
+                <a href="ecommerce.html">
+                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/full-array.jpg" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
@@ -193,7 +209,7 @@ export default function App() {
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
+                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/LSS.jpg" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
@@ -204,7 +220,7 @@ export default function App() {
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
+                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/subwoofer.png" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
@@ -215,7 +231,7 @@ export default function App() {
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
+                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/amtran1.jpg" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
@@ -226,18 +242,7 @@ export default function App() {
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
-                  <div className="boxhny-content">
-                    <h3 className="title">Product
-                    </h3></div>
-                </a>
-              </div>
-              <h4><a href="ecommerce.html">Hand Bags</a></h4>
-            </div>
-            <div className="col-lg-2 col-md-4 col-6 welcome-image">
-              <div className="boxhny13">
-                <a href="ecommerce.html">
-                  <img src="assets/images/grid1.jpg" className="img-fluid" alt="" />
+                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/mixer.png" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
@@ -253,26 +258,17 @@ export default function App() {
     {/* //specification-6*/}
     <section className="w3l-video-6">
       {/* /video-6*/}
+      
       <div className="video-66-info">
         <div className="container-fluid">
           <div className="video-grids-info row">
             <div className="video-gd-right col-lg-8">
-              <div className="video-inner text-center">
-                {/*popup*/}
-                <a className="play-button btn popup-with-zoom-anim" href="#small-dialog">
-                  <span className="fa fa-play" aria-hidden="true" />
-                </a>
-                <div id="small-dialog" className="mfp-hide">
-                  <div className="search-top notify-popup">
-                    <iframe src="https://player.vimeo.com/video/246139491" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen />
-                  </div>
-                </div>
-                {/*//popup*/}
-              </div>
+            <iframe style={{width: "100%", height: "100%"}} src="https://www.youtube.com/embed/2gX2OXzTM5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
             </div>
             <div className="video-gd-left col-lg-4 p-lg-5 p-4">
               <div className="p-xl-4 p-0 video-wrap">
-                <h3 className="hny-title text-left">All Branded Women's Bags are Flat <span>30% Discount</span>
+                <h3 className="hny-title text-left">Video Quang Cao Loa<span>Sieu Chat</span>
                 </h3>
                 <p>Visit our shop to see amazing creations from our designers.</p>
                 <a href="ecommerce.html" className="read-more btn">
@@ -297,7 +293,7 @@ export default function App() {
             <div className="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
               <a href="blog-single.html">
                 <figure>
-                  <img className="img-fluid" src="assets/images/bg1.jpg" alt="blog-image" />
+                  <img className="img-fluid" src="https://www.nguyenkim.com/images/detailed/625/10044273-loa-platium-ad-310-pro-1.jpg" alt="blog-image" />
                 </figure>
               </a>
               <div className="blog-thumbhny-caption">
@@ -312,7 +308,7 @@ export default function App() {
             <div className="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
               <a href="blog-single.html">
                 <figure>
-                  <img className="img-fluid" src="assets/images/bg2.jpg" alt="blog-image" />
+                  <img className="img-fluid" src="https://muagitot.com/images/news/2021/12/10/large/4_1639129711.jpg" alt="blog-image" />
                 </figure>
               </a>
               <div className="blog-thumbhny-caption">
@@ -326,7 +322,7 @@ export default function App() {
             </div>
             <div className="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
               <figure>
-                <img className="img-fluid" src="assets/images/bg3.jpg" alt="blog-image" />
+                <img className="img-fluid" src="https://loahaiphong.com/wp-content/uploads/2022/05/Kcbox-kc279-micro-cao-cap.jpg" alt="blog-image" />
               </figure>
               <div className="blog-thumbhny-caption">
                 <ul className="blog-info-list">
@@ -339,13 +335,13 @@ export default function App() {
             </div>
             <div className="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
               <figure>
-                <img className="img-fluid" src="assets/images/bg4.jpg" alt="blog-image" />
+                <img className="img-fluid" src="https://laptophuyhoang.vn/wp-content/uploads/2021/12/loavitinhenkor21r228den3org-1724-1.jpg" alt="blog-image" />
               </figure>
               <div className="blog-thumbhny-caption">
                 <ul className="blog-info-list">
                   <li><a href="#admin">By admin</a></li>
                   <li className="date-post">
-                    Aug 10, 2020</li>
+                    Aug 10, 2023</li>
                 </ul>
                 <h4><a href="blog-single.html">Here to bring your life style to the next level.</a></h4>
               </div>
@@ -365,10 +361,9 @@ export default function App() {
             <div className="left-side col-lg-4">
               <h3><a className="logo-footer" href="index.html">
                   Spry<span className="lohny">S</span>tore</a></h3>
-              {/* if logo is image enable this   
                                 <a class="navbar-brand" href="#index.html">
-                                    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                                </a> */}
+                                    <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/MinhCuongAudio.jpg" alt="Your logo" title="Your logo" style={{height: "35px"}} />
+                                </a> 
               <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Vivamus a ligula quam. Ut blandit eu leo non suscipit. </p>
               <ul className="social-footerhny mt-lg-5 mt-4">
                 <li><a className="facebook" href="#"><span className="fa fa-facebook" aria-hidden="true" /></a>
@@ -382,7 +377,7 @@ export default function App() {
               </ul>
             </div>
             <div className="right-side col-lg-8 pl-lg-5">
-              <h4>Women's Day Special Offer All Branded Sandals are Flat 50% Discount</h4>
+              <h4>abc</h4>
               <div className="sub-columns">
                 <div className="sub-one-left">
                   <h6>Useful Links</h6>
