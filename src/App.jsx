@@ -60,9 +60,6 @@ export default function App() {
                 </a> */}
               {/*/search-right*/}
               <div className="search-right">
-                <a href="#search" title="search"><span className="fa fa-search mr-2" aria-hidden="true" />
-                  <span className="search-text">Search here</span></a>
-                {/* search popup */}
                 <div id="search" className="pop-overlay">
                   <div className="popup">
                     <form action="#" method="post" className="search-box">
@@ -116,7 +113,7 @@ export default function App() {
         <div className="bannerhny-content">
           {/*/banner-slider*/}
           <div className="content-baner-inf">
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
               <ol className="carousel-indicators">
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" />
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} />
